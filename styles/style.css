@@ -1,0 +1,35 @@
+  body {
+      background-color: #e9ecef;
+  }
+
+  aside {
+      width: 20%;
+      float: left;
+      position: fixed;
+      left: 0;
+      top: 50px;
+      background-color: #f2f2f2;
+      padding: 20px;
+  }
+
+  main {
+      width: 60%;
+      float: left;
+      margin: 50px 0 0 20%;
+      padding: 20px;
+      text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+      aside {
+          width: 100%;
+          position: relative;
+          float: none;
+          margin: 0;
+      }
+
+      main {
+          width: 100%;
+          float: none;
+          margin: 0;
+      }
+  }
