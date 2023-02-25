@@ -99,7 +99,7 @@ function test_input($data)
                     </div>
 
                     <div class="modal-body p-5 pt-0">
-                        <form class="">
+                        <form action="signUp.php" method="POST" class="">
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control rounded-3" id="firstName" name="firstName" placeholder="First Name" value="<?php echo $firstName; ?>">
                                 <label for="firstName">First Name</label>
