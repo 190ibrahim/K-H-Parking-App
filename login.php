@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img src="pictures\KH-korlogo-1.png" class="img-fluid" alt="Phone image">
           </div>
           <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-            <form>
+            <form action="login.php" method="POST">
               <!-- Email input -->
               <h1>USER LOGIN FORM</h1>
 
