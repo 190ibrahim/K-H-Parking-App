@@ -82,29 +82,44 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="modal-body p-5 pt-0">
                         <form class="" action="guestSignup.php" method="POST">
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control rounded-3 <?php if (isset($errors['firstName'])) echo 'is-invalid'; ?>" id="firstName" placeholder="First Name" name="firstName" value="<?php if (isset($_POST['firstName'])) echo htmlspecialchars($_POST['firstName']); ?>">
+                                <input type="text"
+                                    class="form-control rounded-3 <?php if (isset($errors['firstName'])) echo 'is-invalid'; ?>"
+                                    id="firstName" placeholder="First Name" name="firstName"
+                                    value="<?php if (isset($_POST['firstName'])) echo htmlspecialchars($_POST['firstName']); ?>">
                                 <label for="firstName">First Name</label>
                                 <?php if (isset($errors['firstName'])) echo '<div class="invalid-feedback">' . $errors['firstName'] . '</div>'; ?>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control rounded-3 <?php if (isset($errors['lastName'])) echo 'is-invalid'; ?>" id="lastName" placeholder="Last Name" name="lastName" value="<?php if (isset($_POST['lastName'])) echo htmlspecialchars($_POST['lastName']); ?>">
+                                <input type="text"
+                                    class="form-control rounded-3 <?php if (isset($errors['lastName'])) echo 'is-invalid'; ?>"
+                                    id="lastName" placeholder="Last Name" name="lastName"
+                                    value="<?php if (isset($_POST['lastName'])) echo htmlspecialchars($_POST['lastName']); ?>">
                                 <label for="lastName">Last Name</label>
                                 <?php if (isset($errors['lastName'])) echo '<div class="invalid-feedback">' . $errors['lastName'] . '</div>'; ?>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control rounded-3 <?php if (isset($errors['licenseNumber'])) echo 'is-invalid'; ?>" id="licenseNumber" placeholder="License Number" name="licenseNumber" value="<?php if (isset($_POST['licenseNumber'])) echo htmlspecialchars($_POST['licenseNumber']); ?>">
+                                <input type="text"
+                                    class="form-control rounded-3 <?php if (isset($errors['licenseNumber'])) echo 'is-invalid'; ?>"
+                                    id="licenseNumber" placeholder="License Number" name="licenseNumber"
+                                    value="<?php if (isset($_POST['licenseNumber'])) echo htmlspecialchars($_POST['licenseNumber']); ?>">
                                 <label for="email">License Number</label>
                                 <?php if (isset($errors['licenseNumber'])) echo '<div class="invalid-feedback">' . $errors['licenseNumber'] . '</div>'; ?>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="email" class="form-control rounded-3 <?php if (isset($errors['email'])) echo 'is-invalid'; ?>" id="email" placeholder="Email" name="email" value="<?php if (isset($_POST['email'])) echo htmlspecialchars($_POST['email']); ?>">
+                                <input type="email"
+                                    class="form-control rounded-3 <?php if (isset($errors['email'])) echo 'is-invalid'; ?>"
+                                    id="email" placeholder="Email" name="email"
+                                    value="<?php if (isset($_POST['email'])) echo htmlspecialchars($_POST['email']); ?>">
                                 <label for="email">Email address</label>
                                 <?php if (isset($errors['email'])) echo '<div class="invalid-feedback">' . $errors['email'] . '</div>'; ?>
                             </div>
 
 
                             <div class="form-floating mb-3">
-                                <input type="tel" class="form-control rounded-3 <?php if (isset($errors['phoneNumber'])) echo 'is-invalid'; ?>" id="phoneNumber" placeholder="Phone Number" name="phoneNumber" value="<?php if (isset($_POST['phoneNumber'])) echo htmlspecialchars($_POST['phoneNumber']); ?>">
+                                <input type="tel"
+                                    class="form-control rounded-3 <?php if (isset($errors['phoneNumber'])) echo 'is-invalid'; ?>"
+                                    id="phoneNumber" placeholder="Phone Number" name="phoneNumber"
+                                    value="<?php if (isset($_POST['phoneNumber'])) echo htmlspecialchars($_POST['phoneNumber']); ?>">
                                 <label for="phoneNumber">Phone Number</label>
                                 <?php if (isset($errors['phoneNumber'])) echo '<div class="invalid-feedback">' . $errors['phoneNumber'] . '</div>'; ?>
                             </div>
