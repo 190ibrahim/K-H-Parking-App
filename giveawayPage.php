@@ -4,7 +4,7 @@
 
 <div class="main-container">
 
-    <?php include "includes/aside.php"; ?>
+<?php include "includes/aside.php"; ?>
 
 
     <main>

@@ -1,4 +1,7 @@
- <aside class="d-flex flex-column flex-shrink-0 bg-light " style="width: 4.5rem; height: 100vh;">
+ 
+ 
+<div class="aside-container">
+     <aside class="d-flex flex-row flex-shrink-0 bg-light mx-2 " style="width: 4.5rem; height: 100vh;">
      <!-- <a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip"
             data-bs-placement="right">
             <svg class="bi pe-none" width="40" height="32">
@@ -42,4 +45,6 @@
              </a>
          </li>
      </ul>
+     
 </aside>
+</div>

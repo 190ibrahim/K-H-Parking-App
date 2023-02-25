@@ -1,25 +1,20 @@
    <?php include "includes/head.php";  ?>
    <?php include "includes/nav.php";   ?>
 
-
+    
    <div class="main-container">
 
        <?php include "includes/aside.php";   ?>
 
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-
        <main class="d-flex justify-content-center align-items-center">
            <div class="modal modal-signin d-block py-5" tabindex="-1" role="dialog" id="modalSignin">
+            
                <div class="modal-dialog" role="document">
                    <div class="modal-content rounded-4 shadow">
                        <div class="modal-header p-5 pb-4 border-bottom-0">
                            <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
                            <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
-                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           <button type="button" href="index.php" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
                        </div>
 
@@ -83,7 +78,7 @@
                    </div>
                </div>
            </div>
+           
        </main>
    </div>
-
-   <?php include "includes/footer.php"; ?>
+<?php include "includes/footer.php"; ?>
