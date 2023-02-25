@@ -80,7 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
 
                     <div class="modal-body p-5 pt-0">
-                        <form class="">
+                        <form class="" action="guestSignup.php" method="POST">
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control rounded-3 <?php if (isset($errors['firstName'])) echo 'is-invalid'; ?>" id="firstName" placeholder="First Name" name="firstName" value="<?php if (isset($_POST['firstName'])) echo htmlspecialchars($_POST['firstName']); ?>">
                                 <label for="firstName">First Name</label>
