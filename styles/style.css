@@ -167,3 +167,41 @@ main {
 .card-link.btn-primary:hover {
     background-color: #0069d9;
 }
+
+/* Reservation styling */
+/* 
+.reservation {
+	display: flex;
+	flex-direction: column;
+}
+
+.reservation h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.reservation label {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.reservation input {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.reservation input[type="submit"] {
+	background-color: #0069d9;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.reservation input[type="submit"]:hover {
+	background-color: #0069d9; 
+}*/
+

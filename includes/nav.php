@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <img src="pictures/icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <img src="../pictures/icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 K&H Parking
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -12,7 +12,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
-                    <a class="nav-link" href="#"> Reserve</a>
+                    <a class="nav-link" href="reservation.php"> Reserve</a>
                 </ul>
                 <ul class="navbar-nav">
                     <a class="nav-link" href="#"> My Reservation</a>
@@ -25,13 +25,13 @@
                         <a class="nav-link" href="login.php">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="SignUp.php">Register</a>
+                        <a class="nav-link" href="signUp.php">Register</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             UserName
-                            <img src="pictures/icon.png" alt="Profile picture" class="rounded-circle me-2" width="30"
+                            <img src="../pictures/icon.png" alt="Profile picture" class="rounded-circle me-2" width="30"
                                 height="30">
                         </a>
                         <ul class="dropdown-menu">
