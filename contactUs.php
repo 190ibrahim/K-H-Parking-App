@@ -11,7 +11,7 @@
       <div class="container py-5 h-100">
         <div class="row d-flex align-items-center justify-content-center h-100">
           <div class="col-md-8 col-lg-7 col-xl-6">
-            <img src="pictures/contact-us-image.png" class="img-fluid" alt="Contact Us Image">
+            <img src="pictures/KH-korlogo-1.png" class="img-fluid" alt="Contact Us Image">
           </div>
           <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
             <form>

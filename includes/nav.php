@@ -2,12 +2,10 @@
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <img src="../pictures/icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <img src="pictures/icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 K&H Parking
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -28,16 +26,13 @@
                         <a class="nav-link" href="signUp.php">Register</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             UserName
-                            <img src="../pictures/icon.png" alt="Profile picture" class="rounded-circle me-2" width="30"
-                                height="30">
+                            <img src="pictures/icon.png" alt="Profile picture" class="rounded-circle me-2" width="30" height="30">
                         </a>
                         <ul class="dropdown-menu">
                             <li class="nav-item">
-                                <a class="nav-link profile-link"
-                                    href="profile.php?profile_id=<?php echo $_SESSION['user_id']; ?>">
+                                <a class="nav-link profile-link" href="profile.php?profile_id=<?php echo $_SESSION['user_id']; ?>">
                                     <i class="fas fa-user"></i> Profile
                                 </a>
                             </li>

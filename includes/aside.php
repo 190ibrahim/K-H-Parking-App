@@ -23,8 +23,8 @@
         </li>
         <!-- Giveaway -->
         <li class="nav-item">
-            <a href="#" class="nav-link py-3 border-bottom rounded-0" title="Giveaway" data-bs-toggle="tooltip"
-                data-bs-placement="right">
+            <a href="giveawayPage.php" class="nav-link py-3 border-bottom rounded-0" title="Giveaway"
+                data-bs-toggle="tooltip" data-bs-placement="right">
                 <span class="fas fa-fw fa-gift bi pe-none"></span>
             </a>
         </li>
