@@ -15,10 +15,10 @@
                     <a class="nav-link" href="#"> Reserve</a>
                 </ul>
                 <ul class="navbar-nav">
-                    <a class="nav-link" href="#"> My Reservation</a>
+                    <a class="nav-link" href="myReservations.php"> My Reservation</a>
                 </ul>
                 <ul class="navbar-nav">
-                    <a class="nav-link" href="#"> Contact us </a>
+                    <a class="nav-link" href="contactUs.php"> Contact us </a>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
