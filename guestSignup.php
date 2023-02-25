@@ -19,7 +19,7 @@
                        <div class="modal-header p-5 pb-4 border-bottom-0">
                            <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
                            <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
-                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           <button type="button" href="index.php" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
                        </div>
 

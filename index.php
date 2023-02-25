@@ -27,7 +27,7 @@
                             <div class="d-flex justify-content-between">
                                 <a href="customers.php" class="btn btn-light card-link d-inline-block mr-2">View
                                     Details</a>
-                                <a href="add_user.php" class="btn btn-light card-link d-inline-block">Edit
+                                <a href="editReservation.php" class="btn btn-light card-link d-inline-block">Edit
                                     reservation</a>
                             </div>
                         </div>
