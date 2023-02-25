@@ -5,11 +5,14 @@ include "includes/head.php";
 $email = $password = '';
 $emailErr = $passwordErr = '';
 
+$errors = array();
+
 // Check if form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Validate email
   if (empty(trim($_POST['email']))) {
     $emailErr = 'Please enter your email';
+    $errors['email'] = $emailErr;
   } else {
     $email = trim($_POST['email']);
   }
@@ -17,12 +20,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Validate password
   if (empty(trim($_POST['password']))) {
     $passwordErr = 'Please enter your password';
+    $errors['password'] = $passwordErr;
   } else {
     $password = trim($_POST['password']);
   }
 
   // If there are no validation errors, authenticate user and redirect to dashboard
-  if (empty($emailErr) && empty($passwordErr)) {
+  //if (empty($emailErr) && empty($passwordErr)) {
+    if(empty($errors)){
 
     echo "you are in";
     // TODO: Authenticate user and redirect to dashboard
@@ -55,14 +60,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <h1>USER LOGIN FORM</h1>
 
               <div class="form-outline mb-4">
-                <input name="email" type="email" id="form1Example13" class="form-control form-control-lg" />
+                <input name="email" type="email" id="form1Example13" class="form-control form-control-lg <?php if (isset($errors['email'])) echo 'is-invalid'; ?>" />
                 <label class="form-label" for="form1Example13">Email address</label>
+                <?php if (isset($errors['email'])) echo '<div class="invalid-feedback">' . $errors['email'] . '</div>'; ?>
               </div>
 
               <!-- Password input -->
               <div class="form-outline mb-4">
-                <input name="password" type="password" id="form1Example23" class="form-control form-control-lg" />
+                <input name="password" type="password" id="form1Example23" class="form-control form-control-lg <?php if (isset($errors['password'])) echo 'is-invalid'; ?>" />
                 <label class="form-label" for="form1Example23">Password</label>
+                <?php if (isset($errors['password'])) echo '<div class="invalid-feedback">' . $errors['password'] . '</div>'; ?>
               </div>
 
               <div class="d-flex justify-content-around align-items-center mb-4">
