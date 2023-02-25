@@ -23,9 +23,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   // If there are no validation errors, authenticate user and redirect to dashboard
   if (empty($emailErr) && empty($passwordErr)) {
+
+    echo "you are in";
     // TODO: Authenticate user and redirect to dashboard
-    header('Location: dashboard.php');
-    exit;
+    //header('Location: dashboard.php');
+    //exit;
   }
 }
 ?>
@@ -48,18 +50,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <img src="pictures\KH-korlogo-1.png" class="img-fluid" alt="Phone image">
           </div>
           <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-            <form>
+            <form action="login.php" method="POST">
               <!-- Email input -->
               <h1>USER LOGIN FORM</h1>
 
               <div class="form-outline mb-4">
-                <input type="email" id="form1Example13" class="form-control form-control-lg" />
+                <input name="email" type="email" id="form1Example13" class="form-control form-control-lg" />
                 <label class="form-label" for="form1Example13">Email address</label>
               </div>
 
               <!-- Password input -->
               <div class="form-outline mb-4">
-                <input type="password" id="form1Example23" class="form-control form-control-lg" />
+                <input name="password" type="password" id="form1Example23" class="form-control form-control-lg" />
                 <label class="form-label" for="form1Example23">Password</label>
               </div>
 
